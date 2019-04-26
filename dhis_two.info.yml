@@ -1,0 +1,22 @@
+name: dhis2
+type: theme
+description: Custom theme for the DHIS2 Drupal module site
+package: Custom
+core: 8.x
+libraries:
+  - dhis_two/global-styling
+  - dhis_two/global-scripts
+
+component-libraries:
+  dhis:
+    paths:
+      - src/components
+      - src/templates
+
+regions:
+  header: site main header
+  menu: site menu
+  left_side: left side content
+  right_side: right side content
+  content: site main content
+  footer: site main footer

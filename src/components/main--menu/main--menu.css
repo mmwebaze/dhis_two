@@ -1,0 +1,31 @@
+.main-menu {
+    background-color: #ebf1f4;
+    border-bottom: 10px solid #a7bacb;
+    margin: 0 -10px;
+}
+.dhis-main{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+.dhis-main li{
+    float: left;
+    border-right: 1px solid #1c88dd;
+}
+.dhis-main li:last-child {
+    border-right: none;
+}
+.dhis-main li a {
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: Arvo, Verdana, Tahoma, "DejaVu Sans", sans-serif;
+    color: #1c88dd;
+}
+
+/*.dhis-main .standardfront-page{
+    background-image: url("../../../images/home.png");
+    background-repeat:no-repeat;
+}*/

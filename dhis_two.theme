@@ -1,0 +1,6 @@
+<?php
+function dhis_two_preprocess_views_view_table(&$vars) {
+    $vars['attributes']['class'] = 'table table-bordered';
+
+    //print_r($vars['views']);
+}

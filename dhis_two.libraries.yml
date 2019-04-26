@@ -1,0 +1,49 @@
+global-styling:
+   version: 1.0
+   css:
+    theme:
+      css/bootstrap.min.css: {}
+      css/dhis_two-main.css : {}
+      css/ext-plugin-gray.css: {}
+
+      #css/font-awesome/css/font-awesome.min.css: {}
+tether:
+  js:
+    js/tether.min.js: {}
+
+global-scripts:
+  version: 1.0
+  js:
+    js/bootstrap.min.js: {}
+    js/ext-all.js: {}
+    js/table.js: {}
+    js/dhis_two-main.js: {}
+
+  dependencies:
+    - core/jquery
+    - dhis_two/tether
+
+header:
+  css:
+    component:
+      src/components/header/header.css: {}
+
+main:
+  css:
+    component:
+      src/components/header/main.css: {}
+
+main--front:
+  css:
+    component:
+      src/components/main--front/main--front.css: {}
+
+menu:
+  css:
+    component:
+      src/components/main--menu/main--menu.css: {}
+
+footer:
+  css:
+    component:
+      src/components/footer/footer.css: {}
